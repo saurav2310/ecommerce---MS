@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "ecommerce - MS",
   "private": true,
   "scripts": {
     "build": "turbo run build",
