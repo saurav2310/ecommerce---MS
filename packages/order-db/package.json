@@ -1,0 +1,16 @@
+{
+  "name": "@repo/order-db",
+  "version": "0.0.1",
+  "type": "module",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^24.10.1"
+  },
+  "exports":{
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.0.0"
+  }
+}
