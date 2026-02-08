@@ -4,8 +4,8 @@ import { DataTable } from "./data-table";
 const getData = async (): Promise<Product[]> => {
   return [
     {
-      id: 1,
-      name: "Adidas CoreFit T-Shirt",
+      id: 8,
+      name: "Product kafka test 2",
       shortDescription:
         "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
       description:
@@ -99,18 +99,7 @@ const getData = async (): Promise<Product[]> => {
       colors: ["gray", "pink"],
       images: { gray: "/products/7g.png", pink: "/products/7p.png" },
     },
-    {
-      id: 8,
-      name: "Levi’s Classic Denim",
-      shortDescription:
-        "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-      description:
-        "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-      price: 59.9,
-      sizes: ["s", "m", "l"],
-      colors: ["blue", "green"],
-      images: { blue: "/products/8b.png", green: "/products/8gr.png" },
-    },
+   
   ];
 };
 

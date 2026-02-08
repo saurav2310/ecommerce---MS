@@ -4,8 +4,8 @@ import { Badge } from "./ui/badge";
 
 const popularProducts = [
   {
-    id: 1,
-    name: "Adidas CoreFit T-Shirt",
+    id: 8,
+    name: " Product kafka test 2",
     shortDescription:
       "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
     description:
@@ -74,7 +74,8 @@ const popularProducts = [
       orange: "/products/5o.png",
       black: "/products/5bl.png",
     },
-  },
+  }
+ 
 ];
 
 const latestTransactions = [

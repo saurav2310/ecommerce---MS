@@ -38,7 +38,7 @@ sessionRoute.post('/create-checkout-session', shouldBeUser, async (c) => {
       // The URL of your payment completion page
       return_url: 'http://localhost:3002/return?session_id={CHECKOUT_SESSION_ID}'
     });
-
+// console.log("stripe session created:", session);
     return c.json({ checkoutSessionClientSecret: session.client_secret });
   } catch (error) {
     console.log(error);

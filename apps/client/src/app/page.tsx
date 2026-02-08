@@ -4,9 +4,11 @@ import Image from "next/image";
 const Homepage = async ({
   searchParams,
 }: {
-  searchParams: Promise<{ category: string }>;
+  searchParams: Promise<{ category: string,sort:string,search:string }>;
 }) => {
   const category = (await searchParams).category;
+  const sort = (await searchParams).sort;
+  const search = (await searchParams).search;
   return (
     <div className="">
       <div className="relative aspect-[3/1] mb-12">
